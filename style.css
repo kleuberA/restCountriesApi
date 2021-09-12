@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+    background: white;
+    box-shadow: 1px 1px 14px hsl(0deg 0% 52%);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo{
+    margin-left: 5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+.darkMode{
+    border: none;
+    margin-right: 5%;
+    background: transparent;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+.darkMode ion-icon{
+    width: 20px;
+    height: 20px;
+    padding: 0 1vh 0 0;
+    vertical-align: middle;
+}
+.container{
+	background: hsl(0, 0%, 98%);
+	width: 100%;
+	height: 100vh;
+}
+.containerDarkMode{
+	background: hsl(207, 26%, 17%);
+}
+.filters{
+    width: 90%;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    align-content: center;
+}
+.search{
+    width: 250px;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 7px hsl(0deg 0% 52%);
+    outline: none;
+    padding: 0 1vh;
+}
+.select{
+    width: 150px;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    padding: 0 1vh;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px hsl(0deg 0% 52%);
+}
+.containerCards{
+    height: 75vh;
+    width: 90%;
+    margin: auto;
+}
+.containerGrid{
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 21% 21% 21% 22%;
+    grid-template-rows: 35vh 35vh;
+    grid-gap: 2% 5%;
+}
+.primaryCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1;
+}
+.secondCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1;
+}
+.thirdCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 3;
+    grid-row: 1;
+}
+.fourthCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 4;
+    grid-row: 1;
+}
+.fifthCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 2;
+}
+.sixthCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 2;
+}
+.seventhCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 3;
+    grid-row: 2;
+}
+.eighthCard{
+    background: white;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    grid-column: 4;
+    grid-row: 2;
+}
+.pais{
+    width: 100%;
+    height: 20vh;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+.pais:hover{
+	transform: scale(1.1);
+	transition: transform 1s;
+}
+.namePais{
+    font-size: 24px;
+    padding: 0 5%;
+}
+.population, .region, .capital{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: hsl(200, 15%, 8%);
+    padding: 0 1vh;
+}
+.populationText, .regionText, .capitalText{
+	font-size: 16px;
+	padding: 0 5%;
+}
+.painelDetail{
+    width: 100%;
+    background: white;
+    height: 89vh;
+    position: absolute;
+    top: 10.1%;
+    display: none;
+}
+.navbarPainelDetail{
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.return{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: white;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 4px;
+    filter: drop-shadow(1px 1px 3px grey);
+    cursor: pointer;
+}
+.return ion-icon{
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+.painelDetailGrid{
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70vh;
+}
+.imagePainelDetail{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imagePaisSelected{
+    width: 85%;
+    height: 75%;
+}

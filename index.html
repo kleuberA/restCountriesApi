@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+	<title>Rest Countries</title>
+</head>
+<body>
+	<div class="container"> 
+	<nav class="navbar">
+		<h1 class="logo">Where in the world?</h1>
+		<button class="darkMode"><ion-icon name="moon-outline"></ion-icon>Dark Mode</button>
+	</nav>
+	<div class="filters">
+		<input type="search" class="search" placeholder="Search for a country...">
+		<select id="id_do_select" class="select">
+			<option value="filter">Filter By Region</option>
+			<option class="opcaoRegion" value="Africa">Africa</option>
+			<option class="opcaoRegion" value="Americas">Americas</option>
+			<option class="opcaoRegion" value="Asia">Asia</option>
+			<option class="opcaoRegion" value="Europe">Europe</option>
+			<option class="opcaoRegion" value="Oceania">Oceania</option>
+		</select>
+	</div>
+	<div class="containerCards">
+		<div class="containerGrid">
+			<div class="primaryCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="secondCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="thirdCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="fourthCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="fifthCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="sixthCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="seventhCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+			<div class="eighthCard">
+				<img src="" class="pais" alt="">
+				<h1 class="namePais">Undefined</h1>
+				<h2 class="populationText">Population:<span class="population">Undefined</span></h2>
+				<h2 class="regionText">Region:<span class="region">Undefined</span></h2>
+				<h2 class="capitalText">Capital:<span class="capital">Undefined</span></h2>
+			</div>
+		</div>
+	</div>
+	<div class="painelDetail">
+		<div class="navbarPainelDetail">
+			<button class="return"><ion-icon name="arrow-back-outline"></ion-icon>Back</button>
+		</div>
+		<div class="painelDetailGrid">
+			<div class="imagePainelDetail">
+				<img alt="" class="imagePaisSelected">
+			</div>
+			<div class="containerPainelDetail">
+				<h1 class="textoPaisSelecionado"></h1>
+				<h2 class="detailText">Native Name: <span class="detailNativeName"></span></h2>
+				<h2 class="detailText">Population: <span class="detailPopulation"></span></h2>
+				<h2 class="detailText">Region: <span class="detailRegion"></span></h2>
+				<h2 class="detailText">Sub Region: <span class="detailSubRegion"></span></h2>
+				<h2 class="detailText">Capital: <span class="detailCapital"></span></h2>
+				<h2 class="detailText">Top Level Domain: <span class="detailTopLevelDomain"></span></h2>
+				<h2 class="detailText">Currencies<span class="detailCurrencies"></span></h2>
+				<h2 class="detailText">Languages: <span class="detailLanguages"></span></h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="jquery.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
